@@ -35,3 +35,39 @@ h2,
 .center {
   text-align: center;
 }
+
+.days ol {
+  list-style: inside;
+}
+
+.days li {
+  text-transform: uppercase;
+  color: #a0a;
+  font-size: 1.4em;
+}
+
+.flavors {
+  list-style-type: georgian;
+}
+.flavors {
+  font-size: 1.2em;
+  text-transform: lowercase;
+}
+
+.nav-h, .nav-v{
+  list-style-type: none;
+margin: 0%;
+padding: 0%;
+overflow: hidden;
+background-color: #333;
+}
+
+li a { 
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-h li {float: left;}
+
