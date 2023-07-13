@@ -54,20 +54,70 @@ h2,
   text-transform: lowercase;
 }
 
-.nav-h, .nav-v{
+.nav-h,
+.nav-v {
   list-style-type: none;
-margin: 0%;
-padding: 0%;
-overflow: hidden;
-background-color: #333;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #333;
 }
 
-li a { 
+li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-.nav-h li {float: left;}
-
+.nav-h li {
+  float: left;
+}
+/*  */
+.active {
+  background-color: cornflowerblue;
+}
+/* HOVERING NAV DASH IN HOME PAGE */
+li a:hover {
+  background-color: #111;
+}
+/* STYLES FOR PAGE 5 */
+#handling-div {
+  border: solid red;
+  background-color: #a0a;
+}
+#handling-h1 {
+  background-color: coral;
+}
+#handling-p {
+  display: inline;
+  background-color: darkgreen;
+}
+#handling-a {
+  background-color: cyan;
+}
+.box-model,
+.box-model2 {
+  width: 400px;
+  height: 120px;
+  padding: 5em;
+}
+.box-model {
+  border: 10px solid red;
+  margin: 0 0 20px 0;
+}
+.box-model2 {
+  border: 10px solid blue;
+  box-sizing: border-box;
+}
+.position-example {
+  background-color: green;
+  height: 150em;
+}
+.span-p{
+  font-size: 1.5em;
+}
+.span-p span {
+  font: bold;
+  color: blue;
+}
