@@ -1,5 +1,8 @@
 :root {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --primary: #3c493f;
+  --secondary: #7e8d85;
+  --accent: #b3bfb8;
 }
 
 p {
@@ -114,10 +117,40 @@ li a:hover {
   background-color: green;
   height: 150em;
 }
-.span-p{
+.span-p {
   font-size: 1.5em;
 }
 .span-p span {
   font: bold;
   color: blue;
+}
+/* STYLES FOR PAGE 6 */
+.custom-bg {
+  background-color: var(--primary);
+}
+
+.custom-t {
+  background-color: var(--accent);
+}
+
+.custom-p {
+  background-color: var(--secondary);
+}
+
+.background-solid {
+  background: var(--primary);
+  height: 200px;
+}
+.background-repeat {
+  background-image: url(bernard-hermant-Zpdb7-owcpw-unsplash.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.background-gradient {
+  background-image: linear-gradient(to right, rgba(90%, 30%, 50%, 0.9)),
+    url(bernard-hermant-Zpdb7-owcpw-unsplash.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  height: 400px;
 }
