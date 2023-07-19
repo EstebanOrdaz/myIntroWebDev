@@ -154,3 +154,72 @@ li a:hover {
   background-repeat: repeat;
   height: 400px;
 }
+/* STYLES FOR PAGE 7 */
+.container {
+  display: grid;
+  text-align: center;
+}
+.container-p {
+  background-color: lightgreen;
+  border: 2px solid green;
+  margin: 0px;
+  width: 200px;
+  height: 50px;
+}
+.container-a {
+  display: grid;
+  text-align: center;
+  grid-template-rows: 50px;
+  grid-template-columns: 300px 2fr 1fr;
+  gap: 5px;
+}
+.container-a p {
+  background-color: lightgreen;
+}
+.wrapper {
+  display: grid;
+  background-color: lightblue;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 2px;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.container-div {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav nav"
+    "left main main right"
+    "left main main right"
+    "foot foot foot foot";
+}
+.contain-left{
+  grid-area: left;
+}
+.contain-right{
+  grid-area: right;
+}
+
+.contain-right, .contain-left {
+  background-color: gray;
+}
+.contain-nav{
+  grid-area: nav;
+}
+.contain-bottom{
+  grid-area: foot;
+}
+.contain-nav , .contain-bottom {
+  background-color: green;
+}
